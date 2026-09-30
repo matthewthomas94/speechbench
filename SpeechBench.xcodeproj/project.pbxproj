@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0424510E81725EC44F8AC057 /* MLX in Frameworks */ = {isa = PBXBuildFile; productRef = 0BC8338A35CDB55A0641F13C /* MLX */; };
+		0630CB76E589B9E35BCEF316 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BFB31C8F6053BF7B5C938B /* ConversationView.swift */; };
+		0D82370F9F18BF0206446436 /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3926E6DD0574FE378C878 /* ConversationController.swift */; };
+		256C5C557FB38168AC2EB3FD /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = 311C3699C202B19014864BE5 /* MLXLLM */; };
+		4534D8581B3ACD2C7EE9A9FE /* HuggingFace in Frameworks */ = {isa = PBXBuildFile; productRef = 2DE93D4FD2AA58FD660C947A /* HuggingFace */; };
 		680B3BFD7F77C2303EDCD4EB /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012788A7EB4754DD27000D58 /* Components.swift */; };
+		790F34D9B9110417AFDC6B01 /* Tokenizers in Frameworks */ = {isa = PBXBuildFile; productRef = 30A854EAD809567E940081D4 /* Tokenizers */; };
 		7CE88DE2772BCFD036E77292 /* RunMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5409E93780742ACE10E76063 /* RunMeter.swift */; };
 		9F7158A7CA06A3D273A3981B /* TTSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801BA86496BA523E7308D2E6 /* TTSView.swift */; };
 		A423512131E630BBAF6AB81F /* TTSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA89AAE11670B41562076A /* TTSController.swift */; };
+		A43D7C37D6FAA18EEB902D5A /* MLXLMCommon in Frameworks */ = {isa = PBXBuildFile; productRef = E96BE3C4650F81E3E2542C08 /* MLXLMCommon */; };
 		A5EB3E88095E41AD341F0D90 /* TelemetryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5B3828A4A2230484D6E8 /* TelemetryMonitor.swift */; };
 		A99763C3E15D1554CC7C6C5A /* SystemMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9040F3F7C47684040E745F50 /* SystemMetrics.swift */; };
 		DC893D0869D638E93BA23E8D /* STTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECA3ED737CF16F81BF37DE /* STTView.swift */; };
+		E03F8D03574211F2961D7A7D /* HuggingFaceBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02946C0F03DBBD76F7DE6E40 /* HuggingFaceBridge.swift */; };
 		E24F36E0176E7DDA60700B4D /* SpeechBenchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C1522F7E0F3EECEC8A9014 /* SpeechBenchApp.swift */; };
 		EB523BF4E27666EE8BAB6F6D /* TelemetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A49D80EECF6A8DB7423C59 /* TelemetryView.swift */; };
 		F0C720F2102FAE69A0577684 /* FluidAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 548F9D81AE1DCFE0F6B72A9E /* FluidAudio */; };
@@ -22,10 +30,13 @@
 
 /* Begin PBXFileReference section */
 		012788A7EB4754DD27000D58 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		02946C0F03DBBD76F7DE6E40 /* HuggingFaceBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuggingFaceBridge.swift; sourceTree = "<group>"; };
 		06ECA3ED737CF16F81BF37DE /* STTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STTView.swift; sourceTree = "<group>"; };
 		373DFF68779F3C93840E9CDD /* SpeechBench.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SpeechBench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A49D80EECF6A8DB7423C59 /* TelemetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryView.swift; sourceTree = "<group>"; };
 		5409E93780742ACE10E76063 /* RunMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunMeter.swift; sourceTree = "<group>"; };
+		58BFB31C8F6053BF7B5C938B /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		7BC3926E6DD0574FE378C878 /* ConversationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationController.swift; sourceTree = "<group>"; };
 		801BA86496BA523E7308D2E6 /* TTSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSView.swift; sourceTree = "<group>"; };
 		9040F3F7C47684040E745F50 /* SystemMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMetrics.swift; sourceTree = "<group>"; };
 		A04F5B3828A4A2230484D6E8 /* TelemetryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryMonitor.swift; sourceTree = "<group>"; };
@@ -40,6 +51,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0C720F2102FAE69A0577684 /* FluidAudio in Frameworks */,
+				0424510E81725EC44F8AC057 /* MLX in Frameworks */,
+				256C5C557FB38168AC2EB3FD /* MLXLLM in Frameworks */,
+				A43D7C37D6FAA18EEB902D5A /* MLXLMCommon in Frameworks */,
+				4534D8581B3ACD2C7EE9A9FE /* HuggingFace in Frameworks */,
+				790F34D9B9110417AFDC6B01 /* Tokenizers in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				012788A7EB4754DD27000D58 /* Components.swift */,
+				58BFB31C8F6053BF7B5C938B /* ConversationView.swift */,
 				06ECA3ED737CF16F81BF37DE /* STTView.swift */,
 				44A49D80EECF6A8DB7423C59 /* TelemetryView.swift */,
 				801BA86496BA523E7308D2E6 /* TTSView.swift */,
@@ -70,6 +87,8 @@
 		8BC49EC92F4EC09BB8BE1237 /* Speech */ = {
 			isa = PBXGroup;
 			children = (
+				7BC3926E6DD0574FE378C878 /* ConversationController.swift */,
+				02946C0F03DBBD76F7DE6E40 /* HuggingFaceBridge.swift */,
 				DC5D5785BE42AF4EABAF8953 /* STTController.swift */,
 				C7CA89AAE11670B41562076A /* TTSController.swift */,
 			);
@@ -120,6 +139,11 @@
 			name = SpeechBench;
 			packageProductDependencies = (
 				548F9D81AE1DCFE0F6B72A9E /* FluidAudio */,
+				0BC8338A35CDB55A0641F13C /* MLX */,
+				311C3699C202B19014864BE5 /* MLXLLM */,
+				E96BE3C4650F81E3E2542C08 /* MLXLMCommon */,
+				2DE93D4FD2AA58FD660C947A /* HuggingFace */,
+				30A854EAD809567E940081D4 /* Tokenizers */,
 			);
 			productName = SpeechBench;
 			productReference = 373DFF68779F3C93840E9CDD /* SpeechBench.app */;
@@ -151,6 +175,10 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				91280B99E75C929C93D6EADB /* XCRemoteSwiftPackageReference "FluidAudio" */,
+				6E97759AD896D55870BF0A84 /* XCRemoteSwiftPackageReference "mlx-swift" */,
+				4FF4D692B1E85EBDD6B3559E /* XCRemoteSwiftPackageReference "mlx-swift-lm" */,
+				49A45A361D1179AF6AFFCF5D /* XCRemoteSwiftPackageReference "swift-huggingface" */,
+				2EFDADAC56704B86EC3330F4 /* XCRemoteSwiftPackageReference "swift-transformers" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C5AFFE0F2BC613D7CE26C3E6 /* Products */;
@@ -168,6 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				680B3BFD7F77C2303EDCD4EB /* Components.swift in Sources */,
+				0D82370F9F18BF0206446436 /* ConversationController.swift in Sources */,
+				0630CB76E589B9E35BCEF316 /* ConversationView.swift in Sources */,
+				E03F8D03574211F2961D7A7D /* HuggingFaceBridge.swift in Sources */,
 				7CE88DE2772BCFD036E77292 /* RunMeter.swift in Sources */,
 				F423F51DEA0355D3ED2BE756 /* STTController.swift in Sources */,
 				DC893D0869D638E93BA23E8D /* STTView.swift in Sources */,
@@ -378,6 +409,38 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2EFDADAC56704B86EC3330F4 /* XCRemoteSwiftPackageReference "swift-transformers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huggingface/swift-transformers";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.4;
+			};
+		};
+		49A45A361D1179AF6AFFCF5D /* XCRemoteSwiftPackageReference "swift-huggingface" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huggingface/swift-huggingface";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.11.0;
+			};
+		};
+		4FF4D692B1E85EBDD6B3559E /* XCRemoteSwiftPackageReference "mlx-swift-lm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift-lm";
+			requirement = {
+				kind = exactVersion;
+				version = 3.31.4;
+			};
+		};
+		6E97759AD896D55870BF0A84 /* XCRemoteSwiftPackageReference "mlx-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.31.4;
+			};
+		};
 		91280B99E75C929C93D6EADB /* XCRemoteSwiftPackageReference "FluidAudio" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/FluidInference/FluidAudio";
@@ -389,10 +452,35 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0BC8338A35CDB55A0641F13C /* MLX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E97759AD896D55870BF0A84 /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLX;
+		};
+		2DE93D4FD2AA58FD660C947A /* HuggingFace */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49A45A361D1179AF6AFFCF5D /* XCRemoteSwiftPackageReference "swift-huggingface" */;
+			productName = HuggingFace;
+		};
+		30A854EAD809567E940081D4 /* Tokenizers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EFDADAC56704B86EC3330F4 /* XCRemoteSwiftPackageReference "swift-transformers" */;
+			productName = Tokenizers;
+		};
+		311C3699C202B19014864BE5 /* MLXLLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FF4D692B1E85EBDD6B3559E /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
+			productName = MLXLLM;
+		};
 		548F9D81AE1DCFE0F6B72A9E /* FluidAudio */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 91280B99E75C929C93D6EADB /* XCRemoteSwiftPackageReference "FluidAudio" */;
 			productName = FluidAudio;
+		};
+		E96BE3C4650F81E3E2542C08 /* MLXLMCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FF4D692B1E85EBDD6B3559E /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
+			productName = MLXLMCommon;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

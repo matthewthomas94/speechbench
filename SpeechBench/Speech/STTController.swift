@@ -180,6 +180,13 @@ final class STTController: ObservableObject {
         phase = .ready
     }
 
+    /// Transcribes with the loaded model without recording a run (used by the conversation loop).
+    func transcribeText(_ samples16k: [Float]) async throws -> String? {
+        guard let manager else { return nil }
+        var state = TdtDecoderState.make(decoderLayers: await manager.decoderLayerCount)
+        return try await manager.transcribe(samples16k, decoderState: &state).text
+    }
+
     func clearRuns() { runs.removeAll() }
 }
 

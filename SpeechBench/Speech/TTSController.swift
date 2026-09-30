@@ -127,6 +127,13 @@ final class TTSController: ObservableObject {
         phase = .ready
     }
 
+    /// Synthesizes with the loaded model without recording a run (used by the conversation loop).
+    func synthesizeSamples(_ input: String) async throws -> (samples: [Float], sampleRate: Int)? {
+        guard let manager else { return nil }
+        let result = try await manager.synthesizeDetailed(text: input, speed: Float(speed))
+        return (result.samples, result.sampleRate)
+    }
+
     func play() {
         guard let lastOutput else { return }
         do {
