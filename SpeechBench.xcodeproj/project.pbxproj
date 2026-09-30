@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680B3BFD7F77C2303EDCD4EB /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012788A7EB4754DD27000D58 /* Components.swift */; };
+		7CE88DE2772BCFD036E77292 /* RunMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5409E93780742ACE10E76063 /* RunMeter.swift */; };
+		9F7158A7CA06A3D273A3981B /* TTSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801BA86496BA523E7308D2E6 /* TTSView.swift */; };
+		A423512131E630BBAF6AB81F /* TTSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA89AAE11670B41562076A /* TTSController.swift */; };
+		A5EB3E88095E41AD341F0D90 /* TelemetryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5B3828A4A2230484D6E8 /* TelemetryMonitor.swift */; };
+		A99763C3E15D1554CC7C6C5A /* SystemMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9040F3F7C47684040E745F50 /* SystemMetrics.swift */; };
+		DC893D0869D638E93BA23E8D /* STTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECA3ED737CF16F81BF37DE /* STTView.swift */; };
+		E24F36E0176E7DDA60700B4D /* SpeechBenchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C1522F7E0F3EECEC8A9014 /* SpeechBenchApp.swift */; };
+		EB523BF4E27666EE8BAB6F6D /* TelemetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A49D80EECF6A8DB7423C59 /* TelemetryView.swift */; };
+		F0C720F2102FAE69A0577684 /* FluidAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 548F9D81AE1DCFE0F6B72A9E /* FluidAudio */; };
+		F423F51DEA0355D3ED2BE756 /* STTController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D5785BE42AF4EABAF8953 /* STTController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012788A7EB4754DD27000D58 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		06ECA3ED737CF16F81BF37DE /* STTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STTView.swift; sourceTree = "<group>"; };
+		373DFF68779F3C93840E9CDD /* SpeechBench.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SpeechBench.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A49D80EECF6A8DB7423C59 /* TelemetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryView.swift; sourceTree = "<group>"; };
+		5409E93780742ACE10E76063 /* RunMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunMeter.swift; sourceTree = "<group>"; };
+		801BA86496BA523E7308D2E6 /* TTSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSView.swift; sourceTree = "<group>"; };
+		9040F3F7C47684040E745F50 /* SystemMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMetrics.swift; sourceTree = "<group>"; };
+		A04F5B3828A4A2230484D6E8 /* TelemetryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryMonitor.swift; sourceTree = "<group>"; };
+		B6C1522F7E0F3EECEC8A9014 /* SpeechBenchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechBenchApp.swift; sourceTree = "<group>"; };
+		C7CA89AAE11670B41562076A /* TTSController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSController.swift; sourceTree = "<group>"; };
+		DC5D5785BE42AF4EABAF8953 /* STTController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STTController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D086D7F8F9A3BA1FF86C271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C720F2102FAE69A0577684 /* FluidAudio in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14565F1172FF3265A6D1DC7C /* Telemetry */ = {
+			isa = PBXGroup;
+			children = (
+				5409E93780742ACE10E76063 /* RunMeter.swift */,
+				9040F3F7C47684040E745F50 /* SystemMetrics.swift */,
+				A04F5B3828A4A2230484D6E8 /* TelemetryMonitor.swift */,
+			);
+			path = Telemetry;
+			sourceTree = "<group>";
+		};
+		70A4F7FE1C0DD36F4A1F1E78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				012788A7EB4754DD27000D58 /* Components.swift */,
+				06ECA3ED737CF16F81BF37DE /* STTView.swift */,
+				44A49D80EECF6A8DB7423C59 /* TelemetryView.swift */,
+				801BA86496BA523E7308D2E6 /* TTSView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8BC49EC92F4EC09BB8BE1237 /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				DC5D5785BE42AF4EABAF8953 /* STTController.swift */,
+				C7CA89AAE11670B41562076A /* TTSController.swift */,
+			);
+			path = Speech;
+			sourceTree = "<group>";
+		};
+		C06852FB3884E0C5BA75E82F /* SpeechBench */ = {
+			isa = PBXGroup;
+			children = (
+				B6C1522F7E0F3EECEC8A9014 /* SpeechBenchApp.swift */,
+				8BC49EC92F4EC09BB8BE1237 /* Speech */,
+				14565F1172FF3265A6D1DC7C /* Telemetry */,
+				70A4F7FE1C0DD36F4A1F1E78 /* Views */,
+			);
+			path = SpeechBench;
+			sourceTree = "<group>";
+		};
+		C5AFFE0F2BC613D7CE26C3E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373DFF68779F3C93840E9CDD /* SpeechBench.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D269A2774F4DF8D156400783 = {
+			isa = PBXGroup;
+			children = (
+				C06852FB3884E0C5BA75E82F /* SpeechBench */,
+				C5AFFE0F2BC613D7CE26C3E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7B42616122C03B8CC72D357 /* SpeechBench */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7757F29F81C5B37706300E3E /* Build configuration list for PBXNativeTarget "SpeechBench" */;
+			buildPhases = (
+				F3C810C0DAE89DCC3B4E9827 /* Sources */,
+				5D086D7F8F9A3BA1FF86C271 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechBench;
+			packageProductDependencies = (
+				548F9D81AE1DCFE0F6B72A9E /* FluidAudio */,
+			);
+			productName = SpeechBench;
+			productReference = 373DFF68779F3C93840E9CDD /* SpeechBench.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AEE2C171A0A822CE2A161B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D7B42616122C03B8CC72D357 = {
+						DevelopmentTeam = QK9K4AQRNH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7900AF9D0B464263B8A37E27 /* Build configuration list for PBXProject "SpeechBench" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D269A2774F4DF8D156400783;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				91280B99E75C929C93D6EADB /* XCRemoteSwiftPackageReference "FluidAudio" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C5AFFE0F2BC613D7CE26C3E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7B42616122C03B8CC72D357 /* SpeechBench */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3C810C0DAE89DCC3B4E9827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680B3BFD7F77C2303EDCD4EB /* Components.swift in Sources */,
+				7CE88DE2772BCFD036E77292 /* RunMeter.swift in Sources */,
+				F423F51DEA0355D3ED2BE756 /* STTController.swift in Sources */,
+				DC893D0869D638E93BA23E8D /* STTView.swift in Sources */,
+				E24F36E0176E7DDA60700B4D /* SpeechBenchApp.swift in Sources */,
+				A99763C3E15D1554CC7C6C5A /* SystemMetrics.swift in Sources */,
+				A423512131E630BBAF6AB81F /* TTSController.swift in Sources */,
+				9F7158A7CA06A3D273A3981B /* TTSView.swift in Sources */,
+				A5EB3E88095E41AD341F0D90 /* TelemetryMonitor.swift in Sources */,
+				EB523BF4E27666EE8BAB6F6D /* TelemetryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		97B96FB37C66793E927AD624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AEF396FA90789B099EEE98F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QK9K4AQRNH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SpeechBench;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record speech to benchmark Parakeet transcription on-device.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewthomas.SpeechBench;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B0FF4402F509BDD51E206DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QK9K4AQRNH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SpeechBench;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record speech to benchmark Parakeet transcription on-device.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewthomas.SpeechBench;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E9133B604F9C7D6E69793955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7757F29F81C5B37706300E3E /* Build configuration list for PBXNativeTarget "SpeechBench" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF396FA90789B099EEE98F9 /* Debug */,
+				B0FF4402F509BDD51E206DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7900AF9D0B464263B8A37E27 /* Build configuration list for PBXProject "SpeechBench" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B96FB37C66793E927AD624 /* Debug */,
+				E9133B604F9C7D6E69793955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		91280B99E75C929C93D6EADB /* XCRemoteSwiftPackageReference "FluidAudio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FluidInference/FluidAudio";
+			requirement = {
+				kind = revision;
+				revision = 8145085136df11758cc1303ab54d8e032c12bd41;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		548F9D81AE1DCFE0F6B72A9E /* FluidAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91280B99E75C929C93D6EADB /* XCRemoteSwiftPackageReference "FluidAudio" */;
+			productName = FluidAudio;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3AEE2C171A0A822CE2A161B6 /* Project object */;
+}
