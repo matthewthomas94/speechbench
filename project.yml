@@ -6,7 +6,7 @@ options:
 packages:
   FluidAudio:
     url: https://github.com/FluidInference/FluidAudio
-    # main as of 2026-09-29: adds long-text chunking for Kokoro that v0.17.4 lacks.
+    # main as of 2026-09-29. Now used for Parakeet only; Kokoro runs on MLX (see MLXAudio).
     revision: 8145085136df11758cc1303ab54d8e032c12bd41
   MLXSwift:
     url: https://github.com/ml-explore/mlx-swift
@@ -14,6 +14,11 @@ packages:
   MLXSwiftLM:
     url: https://github.com/ml-explore/mlx-swift-lm
     exactVersion: 3.31.4
+  MLXAudio:
+    url: https://github.com/Blaizzy/mlx-audio-swift
+    # Runs Kokoro on MLX: FluidAudio's Core ML Kokoro crashes in libBNNS on iOS 26.4+
+    # whatever the compute units. Pinned before dbe5eaa, which needs Swift 6.3 (Xcode 26.4+).
+    revision: 8d86630ade569728aaea3dc1a29fc44e2efa719b
   SwiftHuggingFace:
     url: https://github.com/huggingface/swift-huggingface
     from: 0.11.0
@@ -37,6 +42,8 @@ targets:
         product: MLXLLM
       - package: MLXSwiftLM
         product: MLXLMCommon
+      - package: MLXAudio
+        product: MLXAudioTTS
       - package: SwiftHuggingFace
         product: HuggingFace
       - package: SwiftTransformers

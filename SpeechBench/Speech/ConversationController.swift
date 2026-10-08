@@ -75,6 +75,7 @@ final class ConversationController: ObservableObject {
         #endif
         llmPhase = .loading
         // Keep MLX's freed-buffer cache small so the footprint reflects what the model needs.
+        // Kokoro relies on this too: uncapped, its cache grows ~1 GB a sentence and iOS kills the app.
         Memory.cacheLimit = 20 * 1024 * 1024
         do {
             let dir = try await HubDownloader().download(

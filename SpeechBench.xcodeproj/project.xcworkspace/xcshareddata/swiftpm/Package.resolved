@@ -1,5 +1,4 @@
 {
-  "originHash" : "707602196441d5de3e39f82d13cd7f8a41ccd2d5f007e8b406a28ed8bf70e3b7",
   "pins" : [
     {
       "identity" : "eventsource",
@@ -16,6 +15,14 @@
       "location" : "https://github.com/FluidInference/FluidAudio",
       "state" : {
         "revision" : "8145085136df11758cc1303ab54d8e032c12bd41"
+      }
+    },
+    {
+      "identity" : "mlx-audio-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Blaizzy/mlx-audio-swift",
+      "state" : {
+        "revision" : "8d86630ade569728aaea3dc1a29fc44e2efa719b"
       }
     },
     {
@@ -118,5 +125,5 @@
       }
     }
   ],
-  "version" : 3
+  "version" : 2
 }

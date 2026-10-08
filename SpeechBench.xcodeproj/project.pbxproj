@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01D11D0D947B778BEC95B4FB /* ThinkingOrbsKit in Frameworks */ = {isa = PBXBuildFile; productRef = E2F0C83EF03BE3315B94B12C /* ThinkingOrbsKit */; };
+		01D11D0D947B778BEC95B4FB /* Tokenizers in Frameworks */ = {isa = PBXBuildFile; productRef = 30A854EAD809567E940081D4 /* Tokenizers */; };
 		0424510E81725EC44F8AC057 /* MLX in Frameworks */ = {isa = PBXBuildFile; productRef = 0BC8338A35CDB55A0641F13C /* MLX */; };
 		0D82370F9F18BF0206446436 /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3926E6DD0574FE378C878 /* ConversationController.swift */; };
 		256C5C557FB38168AC2EB3FD /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = 311C3699C202B19014864BE5 /* MLXLLM */; };
+		27AB1811DC41638578CC0BDD /* VoiceGlowKit in Frameworks */ = {isa = PBXBuildFile; productRef = C531469A1BBC175E3C5699F6 /* VoiceGlowKit */; };
 		386FA2E11C2A8B167A3E287F /* VoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF047CB68805CAB019B75A /* VoiceView.swift */; };
-		4534D8581B3ACD2C7EE9A9FE /* HuggingFace in Frameworks */ = {isa = PBXBuildFile; productRef = 2DE93D4FD2AA58FD660C947A /* HuggingFace */; };
+		4534D8581B3ACD2C7EE9A9FE /* MLXAudioTTS in Frameworks */ = {isa = PBXBuildFile; productRef = 5340371FD5727E3C1D98ECAD /* MLXAudioTTS */; };
 		4E9DE59AB8F40AB1FE957B05 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F729D3E0CB00B3181EAFFCF /* RootView.swift */; };
 		789F052D9A431CB55C3165DD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EFC4616A6C98D9AE406CA3 /* HomeView.swift */; };
-		790F34D9B9110417AFDC6B01 /* Tokenizers in Frameworks */ = {isa = PBXBuildFile; productRef = 30A854EAD809567E940081D4 /* Tokenizers */; };
+		790F34D9B9110417AFDC6B01 /* HuggingFace in Frameworks */ = {isa = PBXBuildFile; productRef = 2DE93D4FD2AA58FD660C947A /* HuggingFace */; };
 		A423512131E630BBAF6AB81F /* TTSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA89AAE11670B41562076A /* TTSController.swift */; };
 		A43D7C37D6FAA18EEB902D5A /* MLXLMCommon in Frameworks */ = {isa = PBXBuildFile; productRef = E96BE3C4650F81E3E2542C08 /* MLXLMCommon */; };
 		C65D24246E171AE460CE0D61 /* GooeyMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F61704A9911E736668A532 /* GooeyMenu.swift */; };
-		D6B5975010C0F150869A3941 /* VoiceGlowKit in Frameworks */ = {isa = PBXBuildFile; productRef = C531469A1BBC175E3C5699F6 /* VoiceGlowKit */; };
+		D6B5975010C0F150869A3941 /* ThinkingOrbsKit in Frameworks */ = {isa = PBXBuildFile; productRef = E2F0C83EF03BE3315B94B12C /* ThinkingOrbsKit */; };
 		E03F8D03574211F2961D7A7D /* HuggingFaceBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02946C0F03DBBD76F7DE6E40 /* HuggingFaceBridge.swift */; };
 		E24F36E0176E7DDA60700B4D /* SpeechBenchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C1522F7E0F3EECEC8A9014 /* SpeechBenchApp.swift */; };
 		F0C720F2102FAE69A0577684 /* FluidAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 548F9D81AE1DCFE0F6B72A9E /* FluidAudio */; };
@@ -50,10 +51,11 @@
 				0424510E81725EC44F8AC057 /* MLX in Frameworks */,
 				256C5C557FB38168AC2EB3FD /* MLXLLM in Frameworks */,
 				A43D7C37D6FAA18EEB902D5A /* MLXLMCommon in Frameworks */,
-				4534D8581B3ACD2C7EE9A9FE /* HuggingFace in Frameworks */,
-				790F34D9B9110417AFDC6B01 /* Tokenizers in Frameworks */,
-				01D11D0D947B778BEC95B4FB /* ThinkingOrbsKit in Frameworks */,
-				D6B5975010C0F150869A3941 /* VoiceGlowKit in Frameworks */,
+				4534D8581B3ACD2C7EE9A9FE /* MLXAudioTTS in Frameworks */,
+				790F34D9B9110417AFDC6B01 /* HuggingFace in Frameworks */,
+				01D11D0D947B778BEC95B4FB /* Tokenizers in Frameworks */,
+				D6B5975010C0F150869A3941 /* ThinkingOrbsKit in Frameworks */,
+				27AB1811DC41638578CC0BDD /* VoiceGlowKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +140,7 @@
 				0BC8338A35CDB55A0641F13C /* MLX */,
 				311C3699C202B19014864BE5 /* MLXLLM */,
 				E96BE3C4650F81E3E2542C08 /* MLXLMCommon */,
+				5340371FD5727E3C1D98ECAD /* MLXAudioTTS */,
 				2DE93D4FD2AA58FD660C947A /* HuggingFace */,
 				30A854EAD809567E940081D4 /* Tokenizers */,
 				E2F0C83EF03BE3315B94B12C /* ThinkingOrbsKit */,
@@ -173,6 +176,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				91280B99E75C929C93D6EADB /* XCRemoteSwiftPackageReference "FluidAudio" */,
+				805090C67E031BE42E8C5725 /* XCRemoteSwiftPackageReference "mlx-audio-swift" */,
 				6E97759AD896D55870BF0A84 /* XCRemoteSwiftPackageReference "mlx-swift" */,
 				4FF4D692B1E85EBDD6B3559E /* XCRemoteSwiftPackageReference "mlx-swift-lm" */,
 				49A45A361D1179AF6AFFCF5D /* XCRemoteSwiftPackageReference "swift-huggingface" */,
@@ -448,6 +452,14 @@
 				minimumVersion = 0.31.4;
 			};
 		};
+		805090C67E031BE42E8C5725 /* XCRemoteSwiftPackageReference "mlx-audio-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Blaizzy/mlx-audio-swift";
+			requirement = {
+				kind = revision;
+				revision = 8d86630ade569728aaea3dc1a29fc44e2efa719b;
+			};
+		};
 		91280B99E75C929C93D6EADB /* XCRemoteSwiftPackageReference "FluidAudio" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/FluidInference/FluidAudio";
@@ -478,6 +490,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4FF4D692B1E85EBDD6B3559E /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
 			productName = MLXLLM;
+		};
+		5340371FD5727E3C1D98ECAD /* MLXAudioTTS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 805090C67E031BE42E8C5725 /* XCRemoteSwiftPackageReference "mlx-audio-swift" */;
+			productName = MLXAudioTTS;
 		};
 		548F9D81AE1DCFE0F6B72A9E /* FluidAudio */ = {
 			isa = XCSwiftPackageProductDependency;
