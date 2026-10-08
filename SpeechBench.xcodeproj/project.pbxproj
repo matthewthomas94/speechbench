@@ -7,40 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01D11D0D947B778BEC95B4FB /* ThinkingOrbsKit in Frameworks */ = {isa = PBXBuildFile; productRef = E2F0C83EF03BE3315B94B12C /* ThinkingOrbsKit */; };
 		0424510E81725EC44F8AC057 /* MLX in Frameworks */ = {isa = PBXBuildFile; productRef = 0BC8338A35CDB55A0641F13C /* MLX */; };
-		0630CB76E589B9E35BCEF316 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BFB31C8F6053BF7B5C938B /* ConversationView.swift */; };
 		0D82370F9F18BF0206446436 /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3926E6DD0574FE378C878 /* ConversationController.swift */; };
 		256C5C557FB38168AC2EB3FD /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = 311C3699C202B19014864BE5 /* MLXLLM */; };
+		386FA2E11C2A8B167A3E287F /* VoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF047CB68805CAB019B75A /* VoiceView.swift */; };
 		4534D8581B3ACD2C7EE9A9FE /* HuggingFace in Frameworks */ = {isa = PBXBuildFile; productRef = 2DE93D4FD2AA58FD660C947A /* HuggingFace */; };
-		680B3BFD7F77C2303EDCD4EB /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012788A7EB4754DD27000D58 /* Components.swift */; };
+		4E9DE59AB8F40AB1FE957B05 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F729D3E0CB00B3181EAFFCF /* RootView.swift */; };
+		789F052D9A431CB55C3165DD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EFC4616A6C98D9AE406CA3 /* HomeView.swift */; };
 		790F34D9B9110417AFDC6B01 /* Tokenizers in Frameworks */ = {isa = PBXBuildFile; productRef = 30A854EAD809567E940081D4 /* Tokenizers */; };
-		7CE88DE2772BCFD036E77292 /* RunMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5409E93780742ACE10E76063 /* RunMeter.swift */; };
-		9F7158A7CA06A3D273A3981B /* TTSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801BA86496BA523E7308D2E6 /* TTSView.swift */; };
 		A423512131E630BBAF6AB81F /* TTSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA89AAE11670B41562076A /* TTSController.swift */; };
 		A43D7C37D6FAA18EEB902D5A /* MLXLMCommon in Frameworks */ = {isa = PBXBuildFile; productRef = E96BE3C4650F81E3E2542C08 /* MLXLMCommon */; };
-		A5EB3E88095E41AD341F0D90 /* TelemetryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5B3828A4A2230484D6E8 /* TelemetryMonitor.swift */; };
-		A99763C3E15D1554CC7C6C5A /* SystemMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9040F3F7C47684040E745F50 /* SystemMetrics.swift */; };
-		DC893D0869D638E93BA23E8D /* STTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECA3ED737CF16F81BF37DE /* STTView.swift */; };
+		C65D24246E171AE460CE0D61 /* GooeyMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F61704A9911E736668A532 /* GooeyMenu.swift */; };
+		D6B5975010C0F150869A3941 /* VoiceGlowKit in Frameworks */ = {isa = PBXBuildFile; productRef = C531469A1BBC175E3C5699F6 /* VoiceGlowKit */; };
 		E03F8D03574211F2961D7A7D /* HuggingFaceBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02946C0F03DBBD76F7DE6E40 /* HuggingFaceBridge.swift */; };
 		E24F36E0176E7DDA60700B4D /* SpeechBenchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C1522F7E0F3EECEC8A9014 /* SpeechBenchApp.swift */; };
-		EB523BF4E27666EE8BAB6F6D /* TelemetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A49D80EECF6A8DB7423C59 /* TelemetryView.swift */; };
 		F0C720F2102FAE69A0577684 /* FluidAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 548F9D81AE1DCFE0F6B72A9E /* FluidAudio */; };
 		F423F51DEA0355D3ED2BE756 /* STTController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D5785BE42AF4EABAF8953 /* STTController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		012788A7EB4754DD27000D58 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		02946C0F03DBBD76F7DE6E40 /* HuggingFaceBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuggingFaceBridge.swift; sourceTree = "<group>"; };
-		06ECA3ED737CF16F81BF37DE /* STTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STTView.swift; sourceTree = "<group>"; };
+		0ADF047CB68805CAB019B75A /* VoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceView.swift; sourceTree = "<group>"; };
 		373DFF68779F3C93840E9CDD /* SpeechBench.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SpeechBench.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		44A49D80EECF6A8DB7423C59 /* TelemetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryView.swift; sourceTree = "<group>"; };
-		5409E93780742ACE10E76063 /* RunMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunMeter.swift; sourceTree = "<group>"; };
-		58BFB31C8F6053BF7B5C938B /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		6F729D3E0CB00B3181EAFFCF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7BC3926E6DD0574FE378C878 /* ConversationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationController.swift; sourceTree = "<group>"; };
-		801BA86496BA523E7308D2E6 /* TTSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSView.swift; sourceTree = "<group>"; };
-		9040F3F7C47684040E745F50 /* SystemMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMetrics.swift; sourceTree = "<group>"; };
-		A04F5B3828A4A2230484D6E8 /* TelemetryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryMonitor.swift; sourceTree = "<group>"; };
+		94F42D63A0DBC2A4D56469AC /* ThinkingOrbsKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ThinkingOrbsKit; path = Vendor/ThinkingOrbsKit; sourceTree = SOURCE_ROOT; };
+		A3EFC4616A6C98D9AE406CA3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B2F61704A9911E736668A532 /* GooeyMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooeyMenu.swift; sourceTree = "<group>"; };
 		B6C1522F7E0F3EECEC8A9014 /* SpeechBenchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechBenchApp.swift; sourceTree = "<group>"; };
+		BB3C1C07B79C9DEE8F334844 /* VoiceGlowKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = VoiceGlowKit; path = Vendor/VoiceGlowKit; sourceTree = SOURCE_ROOT; };
 		C7CA89AAE11670B41562076A /* TTSController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSController.swift; sourceTree = "<group>"; };
 		DC5D5785BE42AF4EABAF8953 /* STTController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STTController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,30 +52,21 @@
 				A43D7C37D6FAA18EEB902D5A /* MLXLMCommon in Frameworks */,
 				4534D8581B3ACD2C7EE9A9FE /* HuggingFace in Frameworks */,
 				790F34D9B9110417AFDC6B01 /* Tokenizers in Frameworks */,
+				01D11D0D947B778BEC95B4FB /* ThinkingOrbsKit in Frameworks */,
+				D6B5975010C0F150869A3941 /* VoiceGlowKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14565F1172FF3265A6D1DC7C /* Telemetry */ = {
-			isa = PBXGroup;
-			children = (
-				5409E93780742ACE10E76063 /* RunMeter.swift */,
-				9040F3F7C47684040E745F50 /* SystemMetrics.swift */,
-				A04F5B3828A4A2230484D6E8 /* TelemetryMonitor.swift */,
-			);
-			path = Telemetry;
-			sourceTree = "<group>";
-		};
 		70A4F7FE1C0DD36F4A1F1E78 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				012788A7EB4754DD27000D58 /* Components.swift */,
-				58BFB31C8F6053BF7B5C938B /* ConversationView.swift */,
-				06ECA3ED737CF16F81BF37DE /* STTView.swift */,
-				44A49D80EECF6A8DB7423C59 /* TelemetryView.swift */,
-				801BA86496BA523E7308D2E6 /* TTSView.swift */,
+				B2F61704A9911E736668A532 /* GooeyMenu.swift */,
+				A3EFC4616A6C98D9AE406CA3 /* HomeView.swift */,
+				6F729D3E0CB00B3181EAFFCF /* RootView.swift */,
+				0ADF047CB68805CAB019B75A /* VoiceView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -95,12 +82,20 @@
 			path = Speech;
 			sourceTree = "<group>";
 		};
+		91075E42BD9A285628B5CA07 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				94F42D63A0DBC2A4D56469AC /* ThinkingOrbsKit */,
+				BB3C1C07B79C9DEE8F334844 /* VoiceGlowKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		C06852FB3884E0C5BA75E82F /* SpeechBench */ = {
 			isa = PBXGroup;
 			children = (
 				B6C1522F7E0F3EECEC8A9014 /* SpeechBenchApp.swift */,
 				8BC49EC92F4EC09BB8BE1237 /* Speech */,
-				14565F1172FF3265A6D1DC7C /* Telemetry */,
 				70A4F7FE1C0DD36F4A1F1E78 /* Views */,
 			);
 			path = SpeechBench;
@@ -117,6 +112,7 @@
 		D269A2774F4DF8D156400783 = {
 			isa = PBXGroup;
 			children = (
+				91075E42BD9A285628B5CA07 /* Packages */,
 				C06852FB3884E0C5BA75E82F /* SpeechBench */,
 				C5AFFE0F2BC613D7CE26C3E6 /* Products */,
 			);
@@ -144,6 +140,8 @@
 				E96BE3C4650F81E3E2542C08 /* MLXLMCommon */,
 				2DE93D4FD2AA58FD660C947A /* HuggingFace */,
 				30A854EAD809567E940081D4 /* Tokenizers */,
+				E2F0C83EF03BE3315B94B12C /* ThinkingOrbsKit */,
+				C531469A1BBC175E3C5699F6 /* VoiceGlowKit */,
 			);
 			productName = SpeechBench;
 			productReference = 373DFF68779F3C93840E9CDD /* SpeechBench.app */;
@@ -179,6 +177,8 @@
 				4FF4D692B1E85EBDD6B3559E /* XCRemoteSwiftPackageReference "mlx-swift-lm" */,
 				49A45A361D1179AF6AFFCF5D /* XCRemoteSwiftPackageReference "swift-huggingface" */,
 				2EFDADAC56704B86EC3330F4 /* XCRemoteSwiftPackageReference "swift-transformers" */,
+				D3A3D7A52D87440E7B9AC1FE /* XCLocalSwiftPackageReference "Vendor/ThinkingOrbsKit" */,
+				866D3C25BF50C300002D0F99 /* XCLocalSwiftPackageReference "Vendor/VoiceGlowKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C5AFFE0F2BC613D7CE26C3E6 /* Products */;
@@ -195,19 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				680B3BFD7F77C2303EDCD4EB /* Components.swift in Sources */,
 				0D82370F9F18BF0206446436 /* ConversationController.swift in Sources */,
-				0630CB76E589B9E35BCEF316 /* ConversationView.swift in Sources */,
+				C65D24246E171AE460CE0D61 /* GooeyMenu.swift in Sources */,
+				789F052D9A431CB55C3165DD /* HomeView.swift in Sources */,
 				E03F8D03574211F2961D7A7D /* HuggingFaceBridge.swift in Sources */,
-				7CE88DE2772BCFD036E77292 /* RunMeter.swift in Sources */,
+				4E9DE59AB8F40AB1FE957B05 /* RootView.swift in Sources */,
 				F423F51DEA0355D3ED2BE756 /* STTController.swift in Sources */,
-				DC893D0869D638E93BA23E8D /* STTView.swift in Sources */,
 				E24F36E0176E7DDA60700B4D /* SpeechBenchApp.swift in Sources */,
-				A99763C3E15D1554CC7C6C5A /* SystemMetrics.swift in Sources */,
 				A423512131E630BBAF6AB81F /* TTSController.swift in Sources */,
-				9F7158A7CA06A3D273A3981B /* TTSView.swift in Sources */,
-				A5EB3E88095E41AD341F0D90 /* TelemetryMonitor.swift in Sources */,
-				EB523BF4E27666EE8BAB6F6D /* TelemetryView.swift in Sources */,
+				386FA2E11C2A8B167A3E287F /* VoiceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +283,7 @@
 				DEVELOPMENT_TEAM = QK9K4AQRNH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = SpeechBench;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record speech to benchmark Parakeet transcription on-device.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Talk to the on-device voice assistant.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -313,7 +309,7 @@
 				DEVELOPMENT_TEAM = QK9K4AQRNH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = SpeechBench;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record speech to benchmark Parakeet transcription on-device.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Talk to the on-device voice assistant.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -408,6 +404,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		866D3C25BF50C300002D0F99 /* XCLocalSwiftPackageReference "Vendor/VoiceGlowKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Vendor/VoiceGlowKit;
+		};
+		D3A3D7A52D87440E7B9AC1FE /* XCLocalSwiftPackageReference "Vendor/ThinkingOrbsKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Vendor/ThinkingOrbsKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		2EFDADAC56704B86EC3330F4 /* XCRemoteSwiftPackageReference "swift-transformers" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -476,6 +483,14 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 91280B99E75C929C93D6EADB /* XCRemoteSwiftPackageReference "FluidAudio" */;
 			productName = FluidAudio;
+		};
+		C531469A1BBC175E3C5699F6 /* VoiceGlowKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VoiceGlowKit;
+		};
+		E2F0C83EF03BE3315B94B12C /* ThinkingOrbsKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThinkingOrbsKit;
 		};
 		E96BE3C4650F81E3E2542C08 /* MLXLMCommon */ = {
 			isa = XCSwiftPackageProductDependency;
